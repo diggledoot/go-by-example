@@ -30,6 +30,7 @@ func main() {
 		fmt.Println("key: ", k)
 	}
 
+	//can iterate over string
 	for i, c := range "hello world" {
 		fmt.Println(i, c)
 	}
